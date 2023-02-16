@@ -41,7 +41,7 @@ function renderProducts(arr) {
   
     const productInfoFigure = document.createElement('figure');
     const productImgCart = document.createElement('img');
-    productImgCart.setAttribute('src', './icons/bt_add_to_cart.svg');
+    productImgCart.setAttribute('src', 'https://cdn-icons-png.flaticon.com/512/70/70021.png');
   
     productInfoFigure.appendChild(productImgCart);
   
