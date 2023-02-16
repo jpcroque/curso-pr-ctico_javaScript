@@ -1,4 +1,12 @@
+const navMobileMenu = document.querySelector('.nav-header-mobile');
+const mobileMenuItem = document.querySelector('.nav-header-mobile-open');
+const mobileMenuItemList = document.querySelector('.nav-header-mobile--menu');
 const cardsContainer = document.querySelector('.cards-container');
+
+mobileMenuItem.addEventListener('click', function(){
+    navMobileMenu.classList.toggle('navMenuMobile');
+    mobileMenuItemList.classList.toggle('menuMobileList');
+});
 
 const productList = [];
 function addProduct(name, price, image){
